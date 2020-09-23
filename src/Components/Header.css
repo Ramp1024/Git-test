@@ -1,0 +1,133 @@
+
+.nav-links{
+    display: flex;
+}
+
+.link{
+    padding: 10px;
+    list-style: none;
+}
+
+.link{
+    color: crimson;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.link_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(223, 181, 174);
+}
+
+
+.link_flex:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    color: red;
+    transition: 0.2s ease-in;
+    text-decoration: none;
+}
+
+.navbar{
+    background-image: linear-gradient(#434343,
+    #000000);
+    width: 100vw;
+    position: relative;
+    justify-content: none;
+    
+}
+
+.navbar-brand{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3vw;
+    font-weight: bolder;
+    padding: 30px;
+    color: rgb(255, 253, 208);
+}
+
+.navbar-brand:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    color: crimson;
+    transition: 0.2s ease-in;
+    text-decoration: none;
+}
+
+.nav-item{
+    width: 50px;
+    height: 50px;
+}
+
+.logo_image{
+    background:url('./Logo.png');
+    width: 10vw;
+    height: 10vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 30px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .logo_image{
+        background:url('./Logo.png') no-repeat;
+        width:120px;
+        height: 120px;
+        margin:5px 5px 5px 0;
+        border-radius: 30px;
+        background-size: contain;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .logo_image{
+        background:url('./Logo.png') no-repeat;
+        width:100px;
+        height: 100px;
+        margin:5px 5px 5px 0;
+        border-radius: 30px;
+        background-size: contain;
+    }
+    .navbar-brand{
+        font-size: 6.7vw;
+    }
+}
+
+@media (max-width: 767px){
+    .logo_image{
+        background:url('./Logo.png') no-repeat;
+        width:65px;
+        height: 65px;
+        margin:5px 5px 5px 5px;
+        border-radius: 10px;
+        background-size: contain;
+        margin-right: 30px;
+    }
+    
+    .navbar-brand{
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .nav-link{
+        position: absolute;
+        top:100px;
+        visibility: hidden;
+    }
+
+    .navbar{
+        height: fit-content;
+    }
+
+}
+
+.header{
+    display: flex;
+}
+
+
+

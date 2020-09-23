@@ -147,7 +147,7 @@ export const DISHES =
         description:'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms',
         comments: [
             {
-            id: 0,
+               id: 0,
             rating: 5,
             comment: "Imagine all the eatables, living in conFusion!",
             author: "John Lemon",

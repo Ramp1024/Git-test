@@ -1,0 +1,22 @@
+.medium_placeholder{
+    
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.testimonials{
+    color: rgb(114, 177, 250);
+    font-family: cursive;
+    opacity: 0.7;
+}
+
+.testi_para1, .testi_para2{
+    margin-top: 20px;
+    font: small-caps;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #f7c626;
+    opacity: 0.8;
+}
+
+

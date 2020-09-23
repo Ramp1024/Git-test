@@ -1,0 +1,49 @@
+.whole_dish{
+    height: 130vh;
+}
+
+.card{
+    background-color: lavenderblush;
+}
+
+.card-title{
+    color:  darkmagenta;
+    font-weight: bold;
+}
+
+.comments_body{
+    border: violet;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(255, 201, 136);
+}
+
+.comments{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #f03f35;
+    font-weight: bold;
+}
+
+.comment_content{
+    padding: 10px;
+    background-color:  #b7e3e4;
+    color: turquoise;
+}
+
+.card-text{
+    color: brown;
+    font-weight: light;
+    font-style: italic;
+}
+
+.row{
+    justify-content: center;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.comment_id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,15 @@
+.feedback_title{
+    color: turquoise;
+    font-family: cursive;
+    margin-bottom: 40px;
+}
+
+label{
+    color: darkgoldenrod;
+    font-weight: bold;
+}
+
+.form-control{
+    background-color: gray;
+    box-shadow: 0px 0px 5px white inset;
+}

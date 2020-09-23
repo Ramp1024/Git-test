@@ -1,0 +1,69 @@
+.whole_about{
+    height: 270vh;
+}
+
+.container{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.breadcrumb{
+    width: 100%;
+    text-decoration: none;
+    background-color: teal;
+    font-weight: bolder;
+}
+
+.breadcrumb a{
+    text-transform: uppercase;
+    color: black;
+}
+
+.breadcrumb-item.active{
+        color: rgb(133, 49, 49);
+}
+
+.about_title{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: sandybrown;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: underline dotted;   
+}
+
+.history_title{
+    color: teal;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.history_para1, .history_para2{
+    color: white;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.leader_title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: sandybrown;
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: underline dotted;
+}
+
+.card_facts{
+    background-color:crimson;
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+

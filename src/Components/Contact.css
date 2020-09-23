@@ -1,0 +1,21 @@
+.whole_contact{
+    margin-top: 50px;
+    margin-right: 20px;
+    height: 150vh;
+}
+
+.location_title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 50px;
+    font-size: 30px;
+    color: crimson;
+}
+
+.map_tile iframe{
+    width: 1000px;
+}
+
+.map_tile{
+    margin-left: 2vw;
+    box-shadow: 3px 3px 5px crimson;
+}

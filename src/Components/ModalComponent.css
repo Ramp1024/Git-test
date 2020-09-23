@@ -1,0 +1,16 @@
+.modal-content{
+    background-color: black;
+    color: white;
+    border: 3px solid sandybrown;
+}
+
+.close{
+    color: red;
+    opacity: 1;
+}
+
+@media(max-width:767px){
+     .btn-primary{
+        margin-left: auto;
+    }
+}

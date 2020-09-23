@@ -1,0 +1,25 @@
+.whole_menu{
+    height: 200vh;
+}
+
+.card_text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: black;
+}
+
+.card{
+    margin: 20px;
+    border: rgb(148, 11, 39);
+    box-shadow: 5px 5px 15px  red;
+}
+
+@media(max-width: 767px){
+    .breadcrumb{
+        font-size: 13px;
+    }
+}
+
+
+
