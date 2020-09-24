@@ -10,7 +10,7 @@ function About(props) {
     return(
       <div className="whole_about">
         <Breadcrumb>
-          <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
+          <BreadcrumbItem><Link to="/">Home</Link></BreadcrumbItem>
           <BreadcrumbItem active>About Us</BreadcrumbItem>
         </Breadcrumb>
         <div className="container">

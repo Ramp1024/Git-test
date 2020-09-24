@@ -6,6 +6,7 @@
 
 .location_title{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 2vw;
     margin-left: 50px;
     font-size: 30px;
     color: crimson;
@@ -15,7 +16,15 @@
     width: 1000px;
 }
 
+.row{
+    margin-left: 3vw;
+}
 .map_tile{
-    margin-left: 2vw;
     box-shadow: 3px 3px 5px crimson;
+}
+
+@media(max-width:767px){
+    .whole_contact{
+        height: 250vh;
+    }
 }

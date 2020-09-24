@@ -27,7 +27,9 @@ const ModalComponent = (props) => {
   return (
 
     <div>
-      <Button onClick={toggle}>Submit a Comment</Button>
+        <div className="button_div">
+        <Button onClick={toggle}>Submit a Comment</Button>
+        </div>
       <Modal show={modal} modalTransition={{ timeout: 700 }} backdropTransition={{ timeout: 1300 }}
             toggle={toggle} className="">
         <Modal.Header toggle={toggle}>Submit a Comment</Modal.Header>

@@ -138,7 +138,9 @@ class FormComponent extends Component{
                             </FormGroup>
                         </Col>
                     </Row>
-                    <Button className="submit_button">Submit</Button>
+                    <div className="submit">
+                        <Button className="submit_button">Submit</Button>
+                    </div>
                 </Form>
             </div>
             </div>

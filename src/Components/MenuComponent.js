@@ -40,7 +40,7 @@ class Menu extends Component {
         return (
             <div className="whole_menu">
                 <Breadcrumb>
-                    <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
+                    <BreadcrumbItem><Link to="/">Home</Link></BreadcrumbItem>
                     <BreadcrumbItem active>Menu</BreadcrumbItem>
                 </Breadcrumb>
                         <div className="container">

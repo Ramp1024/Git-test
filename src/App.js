@@ -31,27 +31,34 @@ class App extends Component {
           <div className="header">
             <Header />
           </div>
-          <div>
-          <Route path='/contact' exact> 
+          <div className="route">
+                <div className="route_contact">
+                  <Route  className="contact" path='/contact' exact> 
                     <Contact />
                   </Route>
-                  <Route path='/menu' exact>
+                </div>
+                <div className="route_menu">
+                  <Route className="menu" path='/menu' exact>
                     <Menu dishes={this.state.dishes} /> 
                   </Route>
-
-                  <Route path='/about' exact>
-                    <About />
-                  </Route>
-
-                  <Route path='/' exact >
-                    <Home />
-                  </Route>
-
+                </div>
+                  <div className="route_about">
+                    <Route path='/about' exact>
+                      <About />
+                    </Route>
+                  </div>
+                  <div className="route_home">
+                    <Route path='/' exact >
+                      <Home />
+                    </Route>
+                  </div>
+                  <div className="route_dish">
                   {DISHES.map(dish=>
                     <Route path={'/menu/' + dish.name} exact>
                     <DishdetailComponent dishes={dish}/>
                   </Route>
                   )}
+                  </div>
             </div>          
           <div className="footer">
             <Footer />

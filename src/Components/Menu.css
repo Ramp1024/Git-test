@@ -16,6 +16,9 @@
 }
 
 @media(max-width: 767px){
+    .whole_menu{
+        height: 250vh;
+    }
     .breadcrumb{
         font-size: 13px;
     }

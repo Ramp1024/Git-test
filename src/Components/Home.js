@@ -72,7 +72,7 @@ class Home extends Component{
                             <p className="happy_timings">Monday-Thursday: 5pm-6pm<br></br>
                             Friday-Saturday: 2pm-4pm</p>
                         </div>
-                        <div>
+                        <div className="contacts_div">
                             <Link to='/contact' className='link_name'>
                                             <p className="contact_flex">
                                                 <ContactsIcon />

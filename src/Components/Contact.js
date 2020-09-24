@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import "./Contact.css";
 import FeedbackForm from "./FeedbackForm";
+import {Breadcrumb, BreadcrumbItem} from 'reactstrap'
+import { Link } from 'react-router-dom';
 import Testimonials from './Testimonials';
 class Contact extends  Component{
   
@@ -11,6 +13,10 @@ class Contact extends  Component{
   render(){
     return(
       <div className="whole_contact">
+        <Breadcrumb>
+        <BreadcrumbItem><Link to="/">Home</Link></BreadcrumbItem>
+        <BreadcrumbItem><Link to="/contact">Contact Us</Link></BreadcrumbItem>
+      </Breadcrumb>
         <div className="location_title">Location</div>
         <div className="row">
           <div className=" col-md-6 col-sm-12 col-xs-12">

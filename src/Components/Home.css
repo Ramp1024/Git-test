@@ -69,7 +69,7 @@
 	position: relative;
 	border: 2px solid #3F0C1F;
     overflow: hidden;
-    box-shadow: 3px 3px 10px  #40E0D0;
+    box-shadow: 3px 3px 10px  sandybrown;
 }
 
 
@@ -107,7 +107,7 @@
     overflow: hidden;
     margin-left: 0;
     opacity: 0.8;
-    box-shadow: 3px 3px 10px  #40E0D0;
+    box-shadow: 3px 3px 10px  sandybrown;
 
 }
 
@@ -162,7 +162,17 @@ iframe{
     display: flex;
 }
 
+.contacts_div{
+    height: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .contact_flex{
+    padding-top: 0;
+    width: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -298,6 +308,9 @@ iframe{
 
     .offer{
         display: none;
+    }
+    .contacts_div{
+        padding-top: 15vw;
     }
 }
 

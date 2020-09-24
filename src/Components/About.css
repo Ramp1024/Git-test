@@ -1,5 +1,5 @@
 .whole_about{
-    height: 270vh;
+    height: 250vh;
 }
 
 .container{
@@ -63,6 +63,11 @@
     color: white;
 }
 
+@media(max-width:767px){
+    .whole_about{
+        height: 400vh;
+    }
+}
 
 
 

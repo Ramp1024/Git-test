@@ -8,9 +8,10 @@
     color: red;
     opacity: 1;
 }
-
-@media(max-width:767px){
-     .btn-primary{
-        margin-left: auto;
-    }
+.button_div{
+    display: flex;
+    justify-content: center;
 }
+
+
+     

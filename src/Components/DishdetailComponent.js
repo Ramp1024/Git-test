@@ -61,7 +61,7 @@ render(){
 return(
     <div className="whole_dish">
       <Breadcrumb>
-        <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
+        <BreadcrumbItem><Link to="/">Home</Link></BreadcrumbItem>
         <BreadcrumbItem><Link to="/menu">Menu</Link></BreadcrumbItem>
         <BreadcrumbItem active>{this.props.dishes.name}</BreadcrumbItem>
       </Breadcrumb>

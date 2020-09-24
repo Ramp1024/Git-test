@@ -6,21 +6,16 @@
     background-color: black;
     color: purple;
     position: relative;
+    overflow: hidden;
+    min-height: 100vh;
 }
 
-.footer{
-    margin-top: 20px;
-    height: 100px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+.route{
+    padding: bottom 50px;
 }
+
 
 @media(max-width:767px){
-    .whole-div{
-        height: 280vh
-    }
-
     .menu{
         height: 300vh;
     }
